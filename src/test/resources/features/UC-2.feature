@@ -1,5 +1,5 @@
 Feature: UC-2
-  Scenario: Test Login form with passing Username credentials
+  Scenario: Test Login form with passing  not valid Username and Password credentials
 
     Given User open the SauceDemo login Page
     When User enter "anyUsername" and "anyPassword"

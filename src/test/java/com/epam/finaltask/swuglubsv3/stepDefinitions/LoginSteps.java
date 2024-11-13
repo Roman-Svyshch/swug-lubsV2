@@ -1,5 +1,6 @@
 package com.epam.finaltask.swuglubsv3.stepDefinitions;
 
+import com.epam.finaltask.swuglubsv3.pageObjects.HomePage;
 import com.epam.finaltask.swuglubsv3.pageObjects.LoginPage;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
@@ -17,6 +18,7 @@ public class LoginSteps {
 
     private WebDriver driver;
     private LoginPage loginPage;
+    private HomePage homePage;
 
     @Before
     public void setUp() {
@@ -54,5 +56,10 @@ public class LoginSteps {
     @And("User clear password field")
     public void userClearPasswordField() {
         loginPage.clearPasswordField();
+    }
+
+    @Then("User should see title {string}")
+    public void userShouldSeeTitle(String title) {
+        homePage.checkTitle(title);
     }
 }
