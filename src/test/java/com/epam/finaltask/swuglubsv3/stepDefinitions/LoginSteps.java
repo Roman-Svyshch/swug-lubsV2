@@ -24,6 +24,7 @@ public class LoginSteps {
     public void setUp() {
         driver = new ChromeDriver();
         loginPage = new LoginPage(driver);
+        homePage = new HomePage(driver);
         System.out.println("Driver Initialized!");
     }
 

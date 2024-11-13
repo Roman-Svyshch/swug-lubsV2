@@ -7,8 +7,6 @@
     <list default="true" id="6d3dcf31-2453-4af1-bb56-0d10efb8d445" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UC-2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UC-2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UC-3.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UC-3.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,33 +43,53 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Scenario: .executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Test Login form with passing Username credentials.executor&quot;: &quot;Debug&quot;,
-    &quot;Cucumber Java.Scenario: User tries to log in with invalid credentials (1).executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: User tries to log in with invalid credentials.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/I/JavaProjects/swug-lubsV3/src/test/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: UC-3.executor": "Run",
+    "Cucumber Java.Scenario: .executor": "Run",
+    "Cucumber Java.Scenario: Test Login form with passing Username credentials.executor": "Debug",
+    "Cucumber Java.Scenario: User tries to log in with invalid credentials (1).executor": "Run",
+    "Cucumber Java.Scenario: User tries to log in with invalid credentials.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/I/JavaProjects/swug-lubsV3/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\I\JavaProjects\swug-lubsV3\src\test\java\com\epam\finaltask\swuglubsv3\feature" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User tries to log in with invalid credentials (1)">
+  <component name="RunManager" selected="Cucumber Java.Feature: UC-3">
+    <configuration name="Feature: UC-3" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UC-3.feature" />
+      <option name="GLUE" value="com.epam.finaltask.swuglubsv3.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="swug-lubsV3" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: UC-3" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Test Login form with passing Username credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/feature/UC-2.feature" />
@@ -154,6 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: UC-3" />
         <item itemvalue="Cucumber Java.Scenario: User tries to log in with invalid credentials (1)" />
         <item itemvalue="Cucumber Java.Scenario: Test Login form with passing Username credentials" />
         <item itemvalue="Cucumber Java.Scenario: User tries to log in with invalid credentials" />
@@ -174,7 +193,7 @@
       <workItem from="1731311741885" duration="173000" />
       <workItem from="1731483662221" duration="2690000" />
       <workItem from="1731507894062" duration="459000" />
-      <workItem from="1731511480351" duration="1824000" />
+      <workItem from="1731511480351" duration="2204000" />
     </task>
     <servers />
   </component>
