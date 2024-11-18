@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6d3dcf31-2453-4af1-bb56-0d10efb8d445" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/runners/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/runners/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/stepDefinitions/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +54,7 @@
     "Cucumber Java.Scenario: Test Login form with passing Username credentials.executor": "Debug",
     "Cucumber Java.Scenario: User tries to log in with invalid credentials (1).executor": "Run",
     "Cucumber Java.Scenario: User tries to log in with invalid credentials.executor": "Debug",
+    "JUnit.RunCucumberTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,7 +75,7 @@
       <recent name="C:\Users\I\JavaProjects\swug-lubsV3\src\test\java\com\epam\finaltask\swuglubsv3\feature" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: UC-3">
+  <component name="RunManager" selected="JUnit.RunCucumberTest">
     <configuration name="Feature: UC-3" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UC-3.feature" />
@@ -149,34 +154,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/epam/finaltask/swuglubsv3/feature/UC-1.feature" />
-      <option name="GLUE" value="com.epam.finaltask.swuglubsv3.stepDefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="RunCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swug-lubsV3" />
-      <option name="NAME_FILTER" value="^$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: " />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="com.epam.finaltask.swuglubsv3.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.epam.finaltask.swuglubsv3.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.finaltask.swuglubsv3.runners.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCucumberTest" />
         <item itemvalue="Cucumber Java.Feature: UC-3" />
         <item itemvalue="Cucumber Java.Scenario: User tries to log in with invalid credentials (1)" />
         <item itemvalue="Cucumber Java.Scenario: Test Login form with passing Username credentials" />
         <item itemvalue="Cucumber Java.Scenario: User tries to log in with invalid credentials" />
-        <item itemvalue="Cucumber Java.Scenario: " />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +192,9 @@
       <workItem from="1731311741885" duration="173000" />
       <workItem from="1731483662221" duration="2690000" />
       <workItem from="1731507894062" duration="459000" />
-      <workItem from="1731511480351" duration="2204000" />
+      <workItem from="1731511480351" duration="2542000" />
+      <workItem from="1731576095169" duration="5067000" />
+      <workItem from="1731911491526" duration="3399000" />
     </task>
     <servers />
   </component>

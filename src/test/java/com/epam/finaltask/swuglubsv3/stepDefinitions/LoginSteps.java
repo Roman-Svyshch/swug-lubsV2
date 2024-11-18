@@ -3,16 +3,25 @@ package com.epam.finaltask.swuglubsv3.stepDefinitions;
 import com.epam.finaltask.swuglubsv3.pageObjects.HomePage;
 import com.epam.finaltask.swuglubsv3.pageObjects.LoginPage;
 import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+@Execution(ExecutionMode.CONCURRENT)
 
 public class LoginSteps {
 
@@ -20,13 +29,29 @@ public class LoginSteps {
     private LoginPage loginPage;
     private HomePage homePage;
 
+
     @Before
     public void setUp() {
-        driver = new ChromeDriver();
+        String browser = System.getProperty("browser", "chrome").toLowerCase();
+
+        switch (browser) {
+            case "firefox":
+                driver = new FirefoxDriver();
+                break;
+            case "edge":
+                driver = new EdgeDriver();
+                break;
+            default:
+                driver = new ChromeDriver();
+                break;
+        }
+
         loginPage = new LoginPage(driver);
         homePage = new HomePage(driver);
-        System.out.println("Driver Initialized!");
+
+        System.out.println("Driver Initialized for browser: " + browser);
     }
+
 
     @Given("User open the SauceDemo login Page")
     public void userOpenTheSauceDemoLoginPage() {

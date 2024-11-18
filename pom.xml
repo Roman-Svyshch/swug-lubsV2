@@ -98,6 +98,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.2</version>
                 <configuration>
+                    <parallel>methods</parallel>
+                    <threadCount>4</threadCount>
                     <includes>
                         <include>**/RunCucumberTest.java</include>
                     </includes>
